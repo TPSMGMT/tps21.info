@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About TOP PERFORMANCE SERVICES</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f5f0; color:#333; }
+    header { background:#8b0000; color:#fff; padding:20px; text-align:center; }
+    nav { background:#d2b48c; padding:10px; text-align:center; }
+    nav a { margin:0 15px; text-decoration:none; color:#8b0000; font-weight:bold; }
+    nav a:hover { text-decoration:underline; }
+    section { padding:40px; max-width:800px; margin:auto; }
+    h1, h2 { color:#8b0000; }
+    footer { background:#8b0000; color:#fff; text-align:center; padding:15px; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About TPS </h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <section>
+    <h2>Our Story</h2>
+    <p>TPS was founded with a simple mission: to raise the standard of landscaping by focusing on reliability, professionalism, and sustainability. What started as a small team serving local neighborhoods quickly grew into a trusted partner for homeowners, HOAs, and commercial properties across Georgia.</p>
+    
+    <p>Our founders saw a need for a company that not only beautifies outdoor spaces but also values long-term client relationships, fair pricing, and eco-friendly practices. Today, TPS continues to grow while staying true to its commitment of delivering quality with integrity.</p>
+    
+    <h2>Our Values</h2>
+    <ul>
+      <li><strong>Trust:</strong> We keep our word and stand behind our work.</li>
+      <li><strong>Professionalism:</strong> Every job is done with care, respect, and precision.</li>
+      <li><strong>Sustainability:</strong> We implement practices that are safe for the environment and community.</li>
+    </ul>
+  </section>
+  <footer>
+    <p>&copy; 2025 TPS, LLC  | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
