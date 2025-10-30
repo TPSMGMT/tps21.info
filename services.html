@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Our Services | Top Performance Services - Lawn Care & Maintenance Services</title>
+  <title>Our Services | Top Performance Services</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,6 +12,7 @@
       color:#333;
     }
 
+    /* Header */
     header {
       background:#8b0000;
       color:#d2b48c;
@@ -38,6 +39,7 @@
       color:#ffffff;
     }
 
+    /* Navigation */
     nav {
       background:#d2b48c;
       padding:10px;
@@ -56,30 +58,30 @@
       text-decoration:underline;
     }
 
-    section {
-      padding:40px;
+    /* Section styling */
+    .service-box {
+      background:#ffffff;
+      border: 3px solid #8b0000;
+      border-radius:10px;
+      padding:30px;
+      margin:30px auto;
       max-width:900px;
-      margin:auto;
+      text-align:left;
+    }
+
+    .service-box img {
+      max-width:100%;
+      border-radius:6px;
+      margin-bottom:15px;
     }
 
     h2 {
       color:#8b0000;
-      border-left:6px solid #d2b48c;
-      padding-left:10px;
-      margin-top:40px;
-      font-weight: bold;
+      margin-top:0;
     }
 
     ul {
       line-height:1.8;
-    }
-
-    img.service-img {
-      width:100%;
-      max-width:600px;
-      display:block;
-      margin:20px auto;
-      border-radius:10px;
     }
 
     footer {
@@ -95,64 +97,77 @@
 <body>
 
 <header>
-  <img src="logo.png" alt="TPS Logo">
+  <img src="images/logo.png" alt="TPS Logo">
   <h1>Where The Little Things Matter!</h1>
-  <p>Not just lawn care, We deliver Top Performance - All around ✔</p>
+  <p>Not just lawn care, we deliver Top Performance - All around ✔</p>
 </header>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
 </nav>
 
-<section>
-  <img src="images/lawncare.jpg" alt="Residential Services" class="service-img">
+<!-- Residential Services -->
+<div class="service-box">
   <h2>Residential Services</h2>
+  <img src="images/lawncare.jpg" alt="Residential Lawn Care">
   <ul>
     <li>Lawn mowing and edging</li>
     <li>Mulching and flower bed maintenance</li>
     <li>Shrub trimming and pruning</li>
   </ul>
+</div>
 
-  <img src="images/commercial.jpg" alt="Commercial & HOA Services" class="service-img">
+<!-- Commercial & HOA Services -->
+<div class="service-box">
   <h2>Commercial & HOA Services</h2>
+  <img src="images/commercial.jpg" alt="Commercial & HOA Services">
   <ul>
     <li>Parking lot and common area upkeep</li>
     <li>Landscape design and installation</li>
     <li>Storm cleanup and seasonal planning</li>
     <li>Pressure Washing</li>
   </ul>
+</div>
 
-  <img src="images/frontyard.jpg" alt="Specialty Services" class="service-img">
+<!-- Specialty Services -->
+<div class="service-box">
   <h2>Specialty Services</h2>
+  <img src="images/frontyard.jpg" alt="Specialty Landscaping">
   <ul>
     <li>Hardscaping (walkways, borders, decorative stone)</li>
     <li>Irrigation system monitoring</li>
     <li>Eco-friendly landscaping solutions</li>
   </ul>
+</div>
 
-  <img src="images/janitorial.jpg" alt="Janitorial Services" class="service-img">
+<!-- Janitorial Services -->
+<div class="service-box">
   <h2>Janitorial Services</h2>
+  <img src="images/janitorial.jpg" alt="Janitorial Services">
   <ul>
     <li>Daily and nightly cleaning programs</li>
     <li>Restroom sanitation and supply restocking</li>
     <li>Floor care including stripping, waxing, and carpet cleaning</li>
   </ul>
+</div>
 
-  <img src="images/groundskeeping.jpg" alt="Groundskeeping Maintenance" class="service-img">
+<!-- Groundskeeping Maintenance -->
+<div class="service-box">
   <h2>Groundskeeping Maintenance</h2>
+  <img src="images/groundskeeping.jpg" alt="Groundskeeping Maintenance">
   <ul>
     <li>General property upkeep</li>
     <li>Leaf and debris removal</li>
     <li>Snow removal (Seasonal)</li>
   </ul>
-</section>
+</div>
 
 <footer>
-  <p>&copy; 2021 TPS, LLC | All Rights Reserved</p>
+  <p>&copy; 2025 TPS, LLC | All Rights Reserved</p>
 </footer>
 
 </body>
