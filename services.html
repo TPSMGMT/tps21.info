@@ -56,30 +56,42 @@
       text-decoration:underline;
     }
 
-    section {
-      padding:40px;
-      max-width:900px;
-      margin:auto;
+    /* NEW: Service box styling (white box with red border) */
+    .service-box {
+      background: #ffffff;
+      border: 3px solid #8b0000;   /* red border */
+      border-radius: 10px;
+      padding: 20px 25px;
+      margin: 30px auto;
+      max-width: 900px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      text-align: left;
     }
 
-    h2 {
+    .service-box h2 {
       color:#8b0000;
-      border-left:6px solid #d2b48c;
-      padding-left:10px;
-      margin-top:40px;
-      font-weight: bold;
+      margin-top: 0;
+      padding-left: 0;
+      border-left: none; /* keep consistent look inside box */
+    }
+
+    .service-box img.service-img {
+      width:100%;
+      max-width:600px;
+      display:block;
+      margin:15px auto;
+      border-radius:10px;
+      object-fit:cover;
+    }
+
+    section {
+      padding: 0 20px 40px;
+      max-width: 1000px;
+      margin: 0 auto;
     }
 
     ul {
       line-height:1.8;
-    }
-
-    img.service-img {
-      width:100%;
-      max-width:600px;
-      display:block;
-      margin:20px auto;
-      border-radius:10px;
     }
 
     footer {
@@ -109,46 +121,61 @@
 </nav>
 
 <section>
-  <img src="images/lawncare.jpg" alt="Residential Services" class="service-img">
-  <h2>Residential Services</h2>
-  <ul>
-    <li>Lawn mowing and edging</li>
-    <li>Mulching and flower bed maintenance</li>
-    <li>Shrub trimming and pruning</li>
-  </ul>
+  <!-- Residential Services -->
+  <div class="service-box">
+    <h2>Residential Services</h2>
+    <img src="images/lawncare.jpg" alt="Residential Services" class="service-img">
+    <ul>
+      <li>Lawn mowing and edging</li>
+      <li>Mulching and flower bed maintenance</li>
+      <li>Shrub trimming and pruning</li>
+    </ul>
+  </div>
 
-  <img src="images/commercial.jpg" alt="Commercial & HOA Services" class="service-img">
-  <h2>Commercial & HOA Services</h2>
-  <ul>
-    <li>Parking lot and common area upkeep</li>
-    <li>Landscape design and installation</li>
-    <li>Storm cleanup and seasonal planning</li>
-    <li>Pressure Washing</li>
-  </ul>
+  <!-- Commercial & HOA Services -->
+  <div class="service-box">
+    <h2>Commercial & HOA Services</h2>
+    <img src="images/commercial.jpg" alt="Commercial & HOA Services" class="service-img">
+    <ul>
+      <li>Parking lot and common area upkeep</li>
+      <li>Landscape design and installation</li>
+      <li>Storm cleanup and seasonal planning</li>
+      <li>Pressure Washing</li>
+    </ul>
+  </div>
 
-  <img src="images/frontyard.jpg" alt="Specialty Services" class="service-img">
-  <h2>Specialty Services</h2>
-  <ul>
-    <li>Hardscaping (walkways, borders, decorative stone)</li>
-    <li>Irrigation system monitoring</li>
-    <li>Eco-friendly landscaping solutions</li>
-  </ul>
+  <!-- Specialty Services -->
+  <div class="service-box">
+    <h2>Specialty Services</h2>
+    <img src="images/frontyard.jpg" alt="Specialty Services" class="service-img">
+    <ul>
+      <li>Hardscaping (walkways, borders, decorative stone)</li>
+      <li>Irrigation system monitoring</li>
+      <li>Eco-friendly landscaping solutions</li>
+    </ul>
+  </div>
 
-  <img src="images/janitorial.jpg" alt="Janitorial Services" class="service-img">
-  <h2>Janitorial Services</h2>
-  <ul>
-    <li>Daily and nightly cleaning programs</li>
-    <li>Restroom sanitation and supply restocking</li>
-    <li>Floor care including stripping, waxing, and carpet cleaning</li>
-  </ul>
+  <!-- Janitorial Services -->
+  <div class="service-box">
+    <h2>Janitorial Services</h2>
+    <img src="images/janitorial.jpg" alt="Janitorial Services" class="service-img">
+    <ul>
+      <li>Daily and nightly cleaning programs</li>
+      <li>Restroom sanitation and supply restocking</li>
+      <li>Floor care including stripping, waxing, and carpet cleaning</li>
+    </ul>
+  </div>
 
-  <img src="images/groundskeeping.jpg" alt="Groundskeeping Maintenance" class="service-img">
-  <h2>Groundskeeping Maintenance</h2>
-  <ul>
-    <li>General property upkeep</li>
-    <li>Leaf and debris removal</li>
-    <li>Snow removal (Seasonal)</li>
-  </ul>
+  <!-- Groundskeeping Maintenance -->
+  <div class="service-box">
+    <h2>Groundskeeping Maintenance</h2>
+    <img src="images/groundskeeping.jpg" alt="Groundskeeping Maintenance" class="service-img">
+    <ul>
+      <li>General property upkeep</li>
+      <li>Leaf and debris removal</li>
+      <li>Snow removal (Seasonal)</li>
+    </ul>
+  </div>
 </section>
 
 <footer>
