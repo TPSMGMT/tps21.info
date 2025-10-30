@@ -1,150 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TPS | Services</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fdf9f5;
-            color: #333;
-        }
+  <meta charset="UTF-8">
+  <title>Our Services | Top Performance Services - Lawn Care & Maintenance Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin:0;
+      padding:0;
+      background:#f9f5f0;
+      color:#333;
+    }
 
-        header {
-            background-color: #b3201f;
-            color: white;
-            text-align: center;
-            padding: 20px 10px;
-        }
+    header {
+      background:#8b0000;
+      color:#d2b48c;
+      padding:20px;
+      text-align:center;
+      border-bottom: 8px solid #d2b48c;
+    }
 
-        header img {
-            height: 80px;
-            display: block;
-            margin: 0 auto 10px;
-        }
+    header img {
+      height:80px;
+      display:block;
+      margin:0 auto 10px;
+    }
 
-        nav {
-            background-color: #333;
-            text-align: center;
-            padding: 10px 0;
-        }
+    header h1 {
+      margin:10px 0;
+      font-size:2rem;
+      color:#d2b48c;
+    }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 12px 20px;
-            display: inline-block;
-        }
+    header p {
+      font-weight:bold;
+      font-size:1.2rem;
+      color:#ffffff;
+    }
 
-        nav a:hover {
-            background-color: #b3201f;
-        }
+    nav {
+      background:#d2b48c;
+      padding:10px;
+      text-align:center;
+      border-bottom: 4px solid #8b0000;
+    }
 
-        .logo-center {
-            text-align: center;
-            margin-top: 30px;
-        }
+    nav a {
+      margin:0 15px;
+      text-decoration:none;
+      color:#8b0000;
+      font-weight:bold;
+    }
 
-        .logo-center img {
-            height: 100px;
-        }
+    nav a:hover {
+      text-decoration:underline;
+    }
 
-        .services-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            padding: 40px;
-        }
+    section {
+      padding:40px;
+      max-width:900px;
+      margin:auto;
+    }
 
-        .service-box {
-            background-color: white;
-            border: 3px solid #b3201f;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
-        }
+    h2 {
+      color:#8b0000;
+      border-left:6px solid #d2b48c;
+      padding-left:10px;
+      margin-top:40px;
+      font-weight: bold;
+    }
 
-        .service-box:hover {
-            transform: scale(1.03);
-        }
+    ul {
+      line-height:1.8;
+    }
 
-        .service-box h2 {
-            color: #b3201f;
-            text-align: center;
-            margin-bottom: 10px;
-        }
+    img.service-img {
+      width:100%;
+      max-width:600px;
+      display:block;
+      margin:20px auto;
+      border-radius:10px;
+    }
 
-        .service-box p {
-            text-align: center;
-            font-size: 15px;
-            color: #555;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px 10px;
-            margin-top: 30px;
-        }
-
-        footer p {
-            margin: 5px 0;
-        }
-    </style>
+    footer {
+      background:#8b0000;
+      color:#fff;
+      text-align:center;
+      padding:15px;
+      margin-top:40px;
+      border-top: 8px solid #d2b48c;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <img src="logo.png" alt="TPS Logo">
-        <h1>Where The Little Things Matter!</h1>
-        <p><strong>Not just lawn care — We deliver Top Performance all around ✔</strong></p>
-    </header>
+<header>
+  <img src="logo.png" alt="TPS Logo">
+  <h1>Where The Little Things Matter!</h1>
+  <p>Not just lawn care, We deliver Top Performance - All around ✔</p>
+</header>
 
-    <div class="logo-center">
-        <a href="index.html">
-            <img src="logo.png" alt="TPS Logo Home">
-        </a>
-    </div>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+<section>
+  <img src="images/lawncare.jpg" alt="Residential Services" class="service-img">
+  <h2>Residential Services</h2>
+  <ul>
+    <li>Lawn mowing and edging</li>
+    <li>Mulching and flower bed maintenance</li>
+    <li>Shrub trimming and pruning</li>
+  </ul>
 
-    <section class="services-container">
-        <div class="service-box">
-            <h2>Lawn Care</h2>
-            <p>Professional mowing, edging, trimming, and fertilizing to keep your lawn lush and clean year-round.</p>
-        </div>
+  <img src="images/commercial.jpg" alt="Commercial & HOA Services" class="service-img">
+  <h2>Commercial & HOA Services</h2>
+  <ul>
+    <li>Parking lot and common area upkeep</li>
+    <li>Landscape design and installation</li>
+    <li>Storm cleanup and seasonal planning</li>
+    <li>Pressure Washing</li>
+  </ul>
 
-        <div class="service-box">
-            <h2>Groundskeeping</h2>
-            <p>Full property maintenance — from parking lots to perimeter cleaning — ensuring your site looks its best daily.</p>
-        </div>
+  <img src="images/frontyard.jpg" alt="Specialty Services" class="service-img">
+  <h2>Specialty Services</h2>
+  <ul>
+    <li>Hardscaping (walkways, borders, decorative stone)</li>
+    <li>Irrigation system monitoring</li>
+    <li>Eco-friendly landscaping solutions</li>
+  </ul>
 
-        <div class="service-box">
-            <h2>Janitorial Services</h2>
-            <p>Complete facility cleaning and upkeep with flexible schedules for offices, schools, and public spaces.</p>
-        </div>
+  <img src="images/janitorial.jpg" alt="Janitorial Services" class="service-img">
+  <h2>Janitorial Services</h2>
+  <ul>
+    <li>Daily and nightly cleaning programs</li>
+    <li>Restroom sanitation and supply restocking</li>
+    <li>Floor care including stripping, waxing, and carpet cleaning</li>
+  </ul>
 
-        <div class="service-box">
-            <h2>Tree Pulling & Trimming</h2>
-            <p>Expert tree removal, trimming, and site clearing for safety, aesthetics, and compliance with local standards.</p>
-        </div>
+  <img src="images/groundskeeping.jpg" alt="Groundskeeping Maintenance" class="service-img">
+  <h2>Groundskeeping Maintenance</h2>
+  <ul>
+    <li>General property upkeep</li>
+    <li>Leaf and debris removal</li>
+    <li>Snow removal (Seasonal)</li>
+  </ul>
+</section>
 
-        <div class="service-box">
-            <h2>Concrete & Hardscape</h2>
-            <p>Pathways, patios, and custom stonework designed to enhance curb appeal and structural integrity.</p>
-        </div>
+<footer>
+  <p>&copy; 2021 TPS, LLC | All Rights Reserved</p>
+</footer>
 
-        <div class="service-box">
-            <h2>Horticulture & Planting</h2>
-            <p>Custom floral and greenery installations designed by our horticulture specialists to suit every environment.</p
+</body>
+</html>
