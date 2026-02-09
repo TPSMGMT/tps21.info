@@ -84,6 +84,7 @@ nav a:hover {
   margin:30px auto;
   max-width:900px;
   box-shadow:0 2px 6px rgba(0,0,0,0.05);
+  text-align:center;
 }
 
 .service-box h2 {
@@ -91,24 +92,9 @@ nav a:hover {
   margin-top:0;
 }
 
-.service-img {
-  width:100%;
-  max-width:600px;
-  display:block;
-  margin:20px auto;
-  border-radius:10px;
-}
-
-ul {
-  line-height:1.8;
-}
-
-.locations span {
-  display:inline-block;
-  border:2px solid #8b0000;
-  padding:8px 12px;
-  margin:5px;
-  font-weight:bold;
+.service-box p {
+  font-size:1.1rem;
+  line-height:1.6;
 }
 
 footer {
@@ -141,15 +127,30 @@ footer {
 </nav>
 
 <!-- RED HEADER -->
-<div class="red-header">>WELCOME FAMILY 🧑🏾‍🤝‍🧑🏽</div>
+<div class="red-header">🧑🏾‍🤝‍🧑🏽 WELCOME FAMILY → Let's Connect!</div>
 
 <!-- BLACK SUBHEADER -->
-<div class="black-subheader">👉Let's Connect</div>
+<div class="black-subheader">Great meeting you here at the ATL Business Expo — TPS is here to help.</div>
+
+<!-- WHITE BOX INSTRUCTIONS -->
+<div class="service-box">
+  <h2>Connect With TPS & Enter Our Expo Raffle</h2>
+  <p>
+    We’d love to stay in touch! Please fill out your information using our form. By submitting, you’ll:
+  </p>
+  <ul>
+    <li>Be added to our contact list for updates and community projects</li>
+    <li>Enter our special Expo Raffle for a chance to win a prize</li>
+    <li>Receive helpful tips, promotions, and insights from TPS</li>
+  </ul>
+  <p>
+    After submitting, you can also scan our QR code at the booth or visit the link provided to ensure your entry is complete. Thank you for connecting with us — your neighborhood impact starts here!
+  </p>
+</div>
 
 <footer>
-  <p>&copy; 2021 TPS, LLC | All Rights Reserved</p>
+  <p>&copy; 2026 TPS, LLC | All Rights Reserved</p>
 </footer>
 
 </body>
 </html>
-
