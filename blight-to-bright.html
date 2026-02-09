@@ -13,37 +13,38 @@ body {
   color:#333;
 }
 
+/* HEADER */
 header {
   background:#8b0000;
-  color:#d2b48c;
-  padding:20px;
   text-align:center;
-  border-bottom: 8px solid #d2b48c;
+  padding:20px;
+  border-bottom:8px solid #d2b48c;
 }
 
 header img {
   height:80px;
-  display:block;
-  margin:0 auto 10px;
+  margin-bottom:10px;
 }
 
 header h1 {
-  margin:10px 0;
+  margin:8px 0;
   font-size:2rem;
-  color:#d2b48c;
+  color:#d2b48c; /* GOLD */
 }
 
 header p {
+  margin:0;
+  font-size:1.1rem;
   font-weight:bold;
-  font-size:1.2rem;
-  color:#ffffff;
+  color:#ffffff; /* WHITE */
 }
 
+/* NAV */
 nav {
   background:#d2b48c;
   padding:10px;
   text-align:center;
-  border-bottom: 4px solid #8b0000;
+  border-bottom:4px solid #8b0000;
 }
 
 nav a {
@@ -57,7 +58,7 @@ nav a:hover {
   text-decoration:underline;
 }
 
-/* TPS CONTENT BOX */
+/* CONTENT BOX */
 .service-box {
   background:#ffffff;
   border:3px solid #8b0000;
@@ -69,28 +70,31 @@ nav a:hover {
 }
 
 .service-box h2 {
-  color:#8b0000;
   margin-top:0;
+}
+
+/* SECTION HEADERS */
+.red-header {
+  color:#8b0000;
+  font-weight:bold;
+  font-size:1.8rem;
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.black-subheader {
+  color:#000;
+  font-weight:bold;
+  text-align:center;
+  margin-bottom:20px;
 }
 
 .service-img {
   width:100%;
-  max-width:600px;
+  max-width:700px;
   display:block;
   margin:20px auto;
   border-radius:10px;
-}
-
-ul {
-  line-height:1.8;
-}
-
-.locations span {
-  display:inline-block;
-  border:2px solid #8b0000;
-  padding:8px 12px;
-  margin:5px;
-  font-weight:bold;
 }
 
 footer {
@@ -98,8 +102,7 @@ footer {
   color:#fff;
   text-align:center;
   padding:15px;
-  margin-top:40px;
-  border-top: 8px solid #d2b48c;
+  border-top:8px solid #d2b48c;
 }
 </style>
 </head>
@@ -107,9 +110,9 @@ footer {
 <body>
 
 <header>
-  <img src="b2bpic.png" alt="TPS Logo">
-  <h1>From Blight to Bright</h1>
-  <p>Where The Little Things Matter</p>
+  <img src="logo.png" alt="TPS Logo">
+  <h1>Where The Little Things Matter!</h1>
+  <p>Not just lawn care, We deliver Top Performance - All around ✔</p>
 </header>
 
 <nav>
@@ -120,80 +123,31 @@ footer {
   <a href="contact.html">Contact</a>
 </nav>
 
-<!-- WHAT TPS DOES -->
 <div class="service-box">
   <h2>What TPS Does</h2>
   <p>
     TPS transforms neglected areas and abandoned properties into safe,
-    welcoming spaces while providing meaningful, supervised work that
-    strengthens communities and delivers visible results.
-  </p>
-</div>
-
-<!-- WHY IT MATTERS -->
-<div class="service-box">
-  <h2>Why It Matters</h2>
-  <ul>
-    <li>Reduce urban eyesores and safety hazards</li>
-    <li>Restore neighborhood stability and property value</li>
-    <li>Support hands-on, non-mechanized community work</li>
-    <li>Encourage responsibility, teamwork, and civic ownership</li>
-    <li>Create lasting, visible improvements within communities</li>
-  </ul>
-</div>
-
-<!-- SEE THE TRANSFORMATION -->
-<div class="service-box">
-  <h2>See the Transformation</h2>
-  <img src="images/before.jpg" alt="Before Cleanup" class="service-img">
-  <img src="images/after.jpg" alt="After Cleanup" class="service-img">
-  <p>
-    Neglected spaces become clean, safe, and functional environments
-    through consistent care and attention to detail.
-  </p>
-</div>
-
-<!-- OUR IMPACT -->
-<div class="service-box">
-  <h2>Our Impact</h2>
-  <p>
-    Every cleared lot and restored property strengthens a neighborhood,
-    improving safety, appearance, and long-term community use.
-  </p>
-</div>
-
-<!-- WHERE WE WORK -->
-<div class="service-box">
-  <h2>Where We Work</h2>
-  <p>
-    Metro Atlanta neighborhoods, from the Westside to the Southside—
-    supporting residential communities, HOAs, and commercial spaces
-    through consistent care and cleaner environments where it matters most.
+    welcoming spaces through consistent care, attention to detail,
+    and community-focused property maintenance.
   </p>
 
-  <div class="locations">
-    <span>ATLANTA</span>
-    <span>WESTSIDE ATL</span>
-    <span>UNION CITY</span>
-    <span>DECATUR</span>
+  <div class="red-header">From Blight to Bright</div>
+  <div class="black-subheader">
+    Urban Revitalization • Community Partner • Property Maintenance
   </div>
-</div>
 
-<!-- WHO WE ARE -->
-<div class="service-box">
-  <h2>Who We Are</h2>
+  <img src="b2bpic.png" alt="Blight to Bright Transformation" class="service-img">
+
   <p>
-    TPS is a community-rooted team focused on strengthening Atlanta’s
-    neighborhoods — <strong>WHERE THE LITTLE THINGS MATTER</strong>.
-    Through consistent care and attention to detail, we support cleaner,
-    safer spaces with lasting community impact.
+    Through structured maintenance and visible improvements, TPS helps
+    stabilize neighborhoods, support property owners, and restore
+    underutilized spaces into clean, functional environments that serve
+    the community.
   </p>
-
-  <p><strong>Urban Revitalization • Community Partner • Property Maintenance</strong></p>
 </div>
 
 <footer>
-  <p>&copy; © 20216 TPS, LLC | All Rights Reserved</p>
+  <p>&copy; 2026 TPS, LLC | All Rights Reserved</p>
 </footer>
 
 </body>
