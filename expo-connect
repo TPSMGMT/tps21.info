@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Expo Connect | Top Performance Services</title>
 
 <style>
@@ -97,6 +98,12 @@ nav a:hover {
   line-height:1.6;
 }
 
+.service-box ul {
+  text-align:left;
+  margin:10px 0 10px 20px;
+  line-height:1.6;
+}
+
 footer {
   background:#8b0000;
   color:#fff;
@@ -127,7 +134,7 @@ footer {
 </nav>
 
 <!-- RED HEADER -->
-<div class="red-header">WELCOME FAMILY | Let's Align!</div>
+<div class="red-header">WELCOME FAMILY → Let's Align!</div>
 
 <!-- BLACK SUBHEADER -->
 <div class="black-subheader">Great meeting you here at the ATL Business Expo — TPS is here to help.</div>
@@ -144,9 +151,9 @@ footer {
     <li>Receive helpful tips, promotions, and insights from TPS</li>
   </ul>
   <p>
-    After submitting, TPS will reach out to ensure your entry is complete. Immediate responses can obtain more discount!
-
- Thank you for connecting with us — your neighborhood impact starts here!
+    After submitting, TPS will reach out to confirm your entry. Immediate submissions may qualify for additional discounts.
+/p>
+    Thank you for connecting with us — your neighborhood impact starts here!
   </p>
 </div>
 
