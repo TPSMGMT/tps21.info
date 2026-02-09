@@ -30,14 +30,14 @@ header img {
 header h1 {
   margin:8px 0;
   font-size:2rem;
-  color:#d2b48c; /* GOLD */
+  color:#d2b48c;
 }
 
 header p {
   margin:0;
   font-size:1.1rem;
   font-weight:bold;
-  color:#ffffff; /* WHITE */
+  color:#ffffff;
 }
 
 /* NAV */
@@ -59,13 +59,40 @@ nav a:hover {
   text-decoration:underline;
 }
 
-/* SECTION HEADERS */
+/* INPUTS */
+input, select {
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  border:2px solid #d2b48c;
+  border-radius:6px;
+  font-size:1rem;
+}
+
+/* BUTTON */
+button {
+  background:#8b0000;
+  color:#fff;
+  border:none;
+  padding:12px;
+  font-size:1.1rem;
+  font-weight:bold;
+  border-radius:6px;
+  cursor:pointer;
+  width:100%;
+}
+
+button:hover {
+  background:#6f0000;
+}
+
+/* HEADERS */
 .red-header {
   color:#8b0000;
   font-weight:bold;
   font-size:1.8rem;
   text-align:center;
-  margin:30px 0 10px 0;
+  margin:30px 0 10px;
 }
 
 .black-subheader {
@@ -76,7 +103,7 @@ nav a:hover {
   margin-bottom:20px;
 }
 
-/* TPS CONTENT BOX */
+/* WHITE BOX */
 .service-box {
   background:#ffffff;
   border:3px solid #8b0000;
@@ -85,23 +112,16 @@ nav a:hover {
   margin:30px auto;
   max-width:900px;
   box-shadow:0 2px 6px rgba(0,0,0,0.05);
-  text-align:center;
 }
 
 .service-box h2 {
   color:#8b0000;
   margin-top:0;
-}
-
-.service-box p {
-  font-size:1.1rem;
-  line-height:1.6;
+  text-align:center;
 }
 
 .service-box ul {
-  text-align:left;
-  margin:10px 0 10px 20px;
-  line-height:1.6;
+  margin-left:20px;
 }
 
 footer {
@@ -110,7 +130,7 @@ footer {
   text-align:center;
   padding:15px;
   margin-top:40px;
-  border-top: 8px solid #d2b48c;
+  border-top:8px solid #d2b48c;
 }
 </style>
 </head>
@@ -133,28 +153,60 @@ footer {
   <a href="expo-connect.html">Expo Connect</a>
 </nav>
 
-<!-- RED HEADER -->
-<div class="red-header">WELCOME FAMILY → Let's Align!</div>
-
-<!-- BLACK SUBHEADER -->
+<div class="red-header">WELCOME FAMILY → Let’s Align!</div>
 <div class="black-subheader">Great meeting you at the ATL Business Expo — TPS is here to help.</div>
 
-<!-- WHITE BOX INSTRUCTIONS -->
+<!-- INFO BOX -->
 <div class="service-box">
   <h2>Connect With TPS & Enter Our Expo Raffle</h2>
   <p>
-    We’d love to stay in touch! Please fill out your information using our form. By submitting, you’ll:
+    We’d love to stay connected. Please complete the form below to:
   </p>
   <ul>
-    <li>Be added to our contact list for updates and community projects</li>
-    <li>Enter our special Expo Raffle for a chance to win a prize</li>
-    <li>Receive helpful tips, promotions, and insights from TPS</li>
+    <li>Join our TPS contact list</li>
+    <li>Enter our exclusive Expo Raffle</li>
+    <li>Receive updates, offers, and community initiatives</li>
   </ul>
-  <p>
-    After submitting, TPS will reach out to confirm your entry. Immediate submissions may qualify for additional discounts.
-</p>
-    Thank you for connecting with us — your neighborhood impact starts here!
-  </p>
+</div>
+
+<!-- FORM BOX -->
+<div class="service-box">
+  <h2>Expo Contact Form</h2>
+
+  <form action="https://formspree.io/f/xlgwdgol" method="POST">
+
+    <label><strong>Full Name</strong></label>
+    <input type="text" name="name" required>
+
+    <br><br>
+
+    <label><strong>Business Name</strong></label>
+    <input type="text" name="business">
+
+    <br><br>
+
+    <label><strong>Email Address</strong></label>
+    <input type="email" name="email" required>
+
+    <br><br>
+
+    <label><strong>Service Needed</strong></label>
+    <select name="service" required>
+      <option value="">-- Please Select --</option>
+      <option value="Lawn Care">Lawn Care</option>
+      <option value="Property Maintenance">Property Maintenance</option>
+      <option value="Janitorial">Janitorial</option>
+      <option value="All / Other">All / Other</option>
+    </select>
+
+    <br><br>
+
+    <!-- Hidden Expo Tag -->
+    <input type="hidden" name="source" value="ATL Black Expo 2026">
+
+    <button type="submit">Submit & Enter Raffle</button>
+
+  </form>
 </div>
 
 <footer>
