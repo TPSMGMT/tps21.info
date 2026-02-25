@@ -154,17 +154,17 @@ footer {
 </nav>
 
 <div class="red-header">WELCOME FAMILY → Let’s Align!</div>
-<div class="black-subheader">Great meeting you at the ATL Business Expo — TPS is here to help.</div>
+<div class="black-subheader">Great meeting you! — TPS is here to help.</div>
 
 <!-- INFO BOX -->
 <div class="service-box">
-  <h2>Connect With TPS & Enter for Our Expo FREE CONSULTATION </h2>
+  <h2>Connect With TPS & Enter for Our FREE CONSULTATION </h2>
   <p>
     We’d love to stay connected. Please complete the form below to:
   </p>
   <ul>
     <li>Join our TPS contact list</li>
-    <li>Enter our exclusive Expo Raffle</li>
+    <li>Enter our exclusive raffleS</li>
     <li>Receive updates, offers, and community initiatives</li>
   </ul>
   </p>
@@ -212,6 +212,53 @@ footer {
     <input type="hidden" name="source" value="ATL Black Expo 2026">
 
     <button type="submit">Submit & Enter Raffle</button>
+
+  </form>
+</div>
+<!-- REFER-A-FRIEND BOX -->
+<div class="service-box">
+  <h2>Refer-A-Friend & Receive Exclusive Benefits</h2>
+  <p>
+    Know someone who needs Lawn Care, Property Maintenance, or Janitorial services?
+    Submit their information below. Once services are completed, referral rewards may apply.
+  </p>
+
+  <form action="https://formspree.io/f/xlgwdgol" method="POST">
+
+    <!-- Your Name -->
+    <label><strong>Your Name</strong></label>
+    <input type="text" name="your_name" required>
+
+    <br><br>
+
+    <!-- Business Name -->
+    <label><strong>Business Name</strong></label>
+    <input type="text" name="business_name">
+
+    <br><br>
+
+    <!-- Email -->
+    <label><strong>Email Address</strong></label>
+    <input type="email" name="email" required>
+
+    <br><br>
+
+    <!-- Phone Required -->
+    <label><strong>Phone Number (Required)</strong></label>
+    <input type="tel" name="phone" required>
+
+    <br><br>
+
+    <!-- Referred By Required -->
+    <label><strong>Referred By (Required)</strong></label>
+    <input type="text" name="referred_by" required>
+
+    <br><br>
+
+    <!-- Hidden Tag So You Know It’s Referral -->
+    <input type="hidden" name="form_type" value="Refer-A-Friend Submission">
+
+    <button type="submit">Submit Referral</button>
 
   </form>
 </div>
